@@ -1,0 +1,16 @@
+using UnityEngine;
+
+public class ennemy : MonoBehaviour
+{
+    public float speed = 10f;
+
+    private Transform target;
+    private int waypointIndex = 0;
+
+    private void Start()
+    {
+        target = waypoints.points[0];
+    }
+
+
+}
